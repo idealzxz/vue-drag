@@ -1,24 +1,5 @@
-# vue-drag
-
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Vue实现div拖拽
+- Drag.vue 
+    给div绑定mouse事件实现
+- Dragbind 
+    使用vue自定义指令，在定义指令中添加对dom操作的方法实现
